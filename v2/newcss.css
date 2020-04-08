@@ -2,18 +2,47 @@
 body {
     font-size: 1.2rem;
     background-color: #ffffff;
-    
+
 }
 
-.aboutMeText{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-top: 20%;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border-top: 0.1rem solid black;
-    border-bottom: 0.1rem solid black;
 
+.Sa{
+    margin-left: 3rem;
+}
+.Sb{
+    font-size: 2rem;
+}
+.Sc{
+    margin-left: 8rem;
+}
+.Sd{
+    margin-left: 2rem;
+}
+.Sd > b{
+    font-size: 1.5rem;
+}
+.Se{
+    margin-bottom: 1rem;
+}
+.Se > b{
+    font-size: 1.4rem;
+}
+.Sf{
+    padding-top: 2rem;
+}
+.Sg, .Sf{
+
+    font-size: 1.3rem;
+}
+.aboutMeText > *{
+    padding-top: 0.5rem;
+}
+.aboutMeText{
+    text-align: center;
+    border-bottom: solid;
+    border-top: solid;
+    margin-top: 4.5rem;
+    border-color: #486678;
 }
 
 .home{
@@ -34,7 +63,7 @@ nav {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-image: linear-gradient(to right, #3D5766 , #405a6e);
+    background-image: linear-gradient(to right, #3D5766 , #4f7084);
 
     position: fixed;
     height: 100%;

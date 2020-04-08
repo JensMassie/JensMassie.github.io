@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>web</title>
     <link rel="stylesheet" href="css/Reset.css">
-    <link rel="stylesheet" href="css/newcss.css">
+    <link rel="stylesheet" href="css/css_grid.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="smoothScroll.js"></script>
 
@@ -14,7 +14,7 @@
 <main>
     <nav>
         <ul>
-            <li class="im"><img src="img/Placeholder.png" class="rounded"></li>
+            <li class="im"><img src="img/pfoto.jpg" class="rounded"></li>
             <li><a class="active" id="homenav" href="#home">Home</a></li>
             <li><a href="#comp" id="compnav">competenties</a></li>
             <li><a href="#proj" id="projnav">projecten</a></li>
@@ -22,9 +22,11 @@
             <li><a href="#contact" id="contnav">Contact</a></li>
         </ul>
     </nav>
+    <div class="header"><p>Jens Massie</p></div>
     <section class="content">
         <section class="home">
             <h2 id="home">Home</h2>
+
 
             <p class="aboutMeText">Ik ben een student <b>Toegepaste informatica</b> aan de UCLL, met als keuzentraject
                 <b>Software developement</b>. Op deze website staan mijn gerealiseerde projecten en mijn
@@ -34,22 +36,19 @@
 
         <section class="skills">
             <h2 id="comp">Competenties</h2>
-            <p>Hoog</p>
-            <img src="img/java.png" class="big">
+            <ul class="scrollbox">
+                <li><img src="img/java.png" class="big"></li>
+                <li><img title="html5" src="img/html5.png" class="big"></li>
+                <li><img src="img/css.png" class="big"></li>
+                <li><img src="img/python.png" class="big"></li>
+                <li><img src="img/javascript.png" class="big"></li>
+                <li><img src="img/elixir.png" class="big"></li>
+                <li><img src="img/springboot.png" class="big"></li>
+                <li><img src="img/linux.png" class="big"></li>
+                <li><img src="img/c++.png" class="big"></li>
+                <li><img src="img/cs.png" class="big"></li>
+            </ul>
 
-            <img title="html5" src="img/html5.png" class="big">
-
-
-            <img src="img/css.png" class="big">
-            <p>med</p>
-            <img src="img/python.png" class="medium">
-            <img src="img/javascript.png" class="medium">
-            <p>basis</p>
-            <img src="img/elixir.png" class="small">
-            <img src="img/springboot.png" class="small">
-            <img src="img/linux.png" class="small">
-            <img src="img/c++.png" class="small">
-            <img src="img/cs.png" class="small">
         </section>
 
         <section class="projecten">
@@ -79,11 +78,10 @@
             <a href="#" title="Hel">Download mijn cv</a>
             <section class="contact">
                 <h2 id="contact">Contact</h2>
-                <p>Jens Massie</p>
-                <p>LinkedIn:<a href="https://www.linkedin.com/in/jensmassie/"><img class="icon" src="img/linkedin.png"></a>
-                </p>
-                <p>email: jens.massie@hotmail.com</p>
-                <p>tel:+32________</p>
+                <p><img src="img/person.png" class="icon">Jens Massie</p>
+                <p><img class="icon" src="img/linkedin.png">LinkedIn:<a href="https://www.linkedin.com/in/jensmassie/"></a></p>
+                <p><img src="img/email.png" class="icon">email: jens.massie@hotmail.com</p>
+                <p><img src="img/tel.png" class="icon">tel:+32________</p>
             </section>
         </section>
 
