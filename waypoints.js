@@ -42,3 +42,4 @@ function removeAllActive() {
     $("#cvnav").removeAttr("class", "active");
     $("#contnav").removeAttr("class", "active");
 }
+

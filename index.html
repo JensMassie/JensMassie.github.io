@@ -5,8 +5,10 @@
     <title>web</title>
     <link rel="stylesheet" href="css/Reset.css">
     <link rel="stylesheet" href="css/css_grid.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="smoothScroll.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="slider.js"></script>
 
 </head>
 <body>
@@ -34,20 +36,54 @@
                 Als er vragen zijn, neem dan gerust contact op. </p>
         </section>
 
+
+        <h2 id="comp">Competenties</h2>
         <section class="skills">
-            <h2 id="comp">Competenties</h2>
+            <div class="slider">
+                <div>
+                    <ul>
+                        <li><img src="img/java.png" class="big"><p>Java is mijn meest vertrouwde programeertaal. Ik kan deze gebruiken voor het ontwikkelen van webapplicaties, of voor standalone java-applicaties</p></li>
+                        <li><img title="html5" src="img/html5.png" class="big"><p>Ik ben vertrouwd met het ontwikkelen van front-end met behulp van html. Ik ben het vertrouwd om de juiste tags te gebruiken om zo leesbare code te schrijven</p></li>
+                        <li><img src="img/css.png" class="big"><p>Ik kan css gebruiken om de html op te maken.</p></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><img src="img/python.png" class="big"><p>Ik kan python gebruiken om scripts te schrijven. </p></li>
+                        <li><img src="img/javascript.png" class="big"><p>Ik kan javascript gebruiken om simpele programmas te schrijven. Ik kan het ook op mijn website toepassen</p></li>
+                        <li><img src="img/springboot.png" class="big"><p>Ik kan met springboot werken</p></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><img src="img/linux.png" class="big"><p>Ik kan linux commandline gebruiken en heb een basis van docker</p></li>
+                        <li><img src="img/c++.png" class="big"><p>Ik kan c++ gebruiken voor simpele applicaties. </p></li>
+                        <li><img src="img/cs.png" class="big"><p>Ik kan C sharp gebruiken voor simpele applicaties.</p></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><img src="img/elixir.png" class="big"><p>Ik kan elixir gebruiken voor simpele applicaties</p></li>
+                        <li><img src="img/postgres.png" class="big"><p>Ik kan werken met databanken volgens ISO standaarden. Ik kan dit implementeren met java en elixir.</p></li>
+                        <li><img src="img/windows10.png" class="big"><p>Ik kan windows 10 servers opzetten met behulp van een domain controller meerdere pc's beheren</p></li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+
+
+            <!--
             <ul class="scrollbox">
-                <li><img src="img/java.png" class="big"></li>
-                <li><img title="html5" src="img/html5.png" class="big"></li>
-                <li><img src="img/css.png" class="big"></li>
-                <li><img src="img/python.png" class="big"></li>
-                <li><img src="img/javascript.png" class="big"></li>
+
+
                 <li><img src="img/elixir.png" class="big"></li>
                 <li><img src="img/springboot.png" class="big"></li>
-                <li><img src="img/linux.png" class="big"></li>
-                <li><img src="img/c++.png" class="big"></li>
-                <li><img src="img/cs.png" class="big"></li>
-            </ul>
+
+            </ul>-->
 
         </section>
 
@@ -88,9 +124,12 @@
     </section>
 
 </main>
-<footer></footer>
-
-</body>
+<script src="smoothScroll.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
 <script src="waypoints.js"></script>
+
+</body>
+
 </html>
