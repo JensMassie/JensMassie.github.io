@@ -163,28 +163,14 @@ h3 {
 .contact>*>*{
     display: block;
 }
-
-.comp>*>img{
-    width: 4rem
-}
 .paddingBottom{
     padding-bottom: 1rem;
 }
 #comp, #proj{
     padding-bottom: 2rem;
 }
-
-.left{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    width: 100%;
-    background-image: linear-gradient(to right, #46801d, #8FEC8F, #ffe978);
-}
-.left >  * {
-    display: inline;
-}
-.left > div{
-    padding-left: 0.7rem;
-    display: inline;
-
+.comp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 15%;
 }
