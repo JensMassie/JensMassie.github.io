@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="css/css_grid.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-    <script src="slider.js"></script>
 
 </head>
 <body>
@@ -17,17 +15,20 @@
     <nav>
         <ul>
             <li class="im"><img src="img/pfoto.jpg" class="rounded"></li>
-            <li><a class="active" id="homenav" href="#home">Home</a></li>
-            <li><a href="#comp" id="compnav">competenties</a></li>
-            <li><a href="#proj" id="projnav">projecten</a></li>
-            <li><a href="#cv" id="cvnav">cv</a></li>
+            <li><a class="active" id="homenav" href="#homeloc">Home</a></li>
+            <li><a href="#competenties" id="compnav">competenties</a></li>
+            <li><a href="#projecten" id="projnav">projecten</a></li>
             <li><a href="#contact" id="contnav">Contact</a></li>
+            <li><a href="files/cv.pdf" id="cvnav">cv</a></li>
+
         </ul>
     </nav>
     <div class="header"><p>Jens Massie</p></div>
     <section class="content">
+
         <section class="home">
-            <h2 id="home">Home</h2>
+            <h2 id="homeloc">Home</h2>
+            <div id="home"></div>
 
 
             <p class="aboutMeText">Ik ben een student <b>Toegepaste informatica</b> aan de UCLL, met als keuzentraject
@@ -36,59 +37,33 @@
                 Als er vragen zijn, neem dan gerust contact op. </p>
         </section>
 
+        <div id="comp"></div>
 
-        <h2 id="comp">Competenties</h2>
-        <section class="skills">
-            <div class="slider">
-                <div>
-                    <ul>
-                        <li><img src="img/java.png" class="big"><p>Java is mijn meest vertrouwde programeertaal. Ik kan deze gebruiken voor het ontwikkelen van webapplicaties, of voor standalone java-applicaties</p></li>
-                        <li><img title="html5" src="img/html5.png" class="big"><p>Ik ben vertrouwd met het ontwikkelen van front-end met behulp van html. Ik ben het vertrouwd om de juiste tags te gebruiken om zo leesbare code te schrijven</p></li>
-                        <li><img src="img/css.png" class="big"><p>Ik kan css gebruiken om de html op te maken.</p></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><img src="img/python.png" class="big"><p>Ik kan python gebruiken om scripts te schrijven. </p></li>
-                        <li><img src="img/javascript.png" class="big"><p>Ik kan javascript gebruiken om simpele programmas te schrijven. Ik kan het ook op mijn website toepassen</p></li>
-                        <li><img src="img/springboot.png" class="big"><p>Ik kan met springboot werken</p></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><img src="img/linux.png" class="big"><p>Ik kan linux commandline gebruiken en heb een basis van docker</p></li>
-                        <li><img src="img/c++.png" class="big"><p>Ik kan c++ gebruiken voor simpele applicaties. </p></li>
-                        <li><img src="img/cs.png" class="big"><p>Ik kan C sharp gebruiken voor simpele applicaties.</p></li>
-                    </ul>
-                </div>
-                <div>
-                    <ul>
-                        <li><img src="img/elixir.png" class="big"><p>Ik kan elixir gebruiken voor simpele applicaties</p></li>
-                        <li><img src="img/postgres.png" class="big"><p>Ik kan werken met databanken volgens ISO standaarden. Ik kan dit implementeren met java en elixir.</p></li>
-                        <li><img src="img/windows10.png" class="big"><p>Ik kan windows 10 servers opzetten met behulp van een domain controller meerdere pc's beheren</p></li>
-                    </ul>
-                </div>
-            </div>
+        <h2 id="competenties">Competenties</h2>
 
-
-
-
-
-
-
-            <!--
-            <ul class="scrollbox">
-
-
-                <li><img src="img/elixir.png" class="big"></li>
-                <li><img src="img/springboot.png" class="big"></li>
-
-            </ul>-->
-
+        <p class="paddingBottom">Dit zijn mijn it competenties. Je kan op elke foto klikken voor specifiekere informatie te krijgen over de competentie</p>
+        <p class="paddingBottom">Work In Progress!</p>
+        <section class="comp">
+            <article class="left">
+                <img src="img/java.png"><p>Java</p>
+                <img src="img/html5.png"><p>html</p>
+                <img src="img/css.png"><p>css</p>
+                <img src="img/postgres.png"><p>sql</p>
+                <img src="img/python.png"><p>python</p>
+                <img src="img/springboot.png"><p>springboot</p>
+                <img src="img/windows10.png"><p>windows server</p>
+                <img src="img/linux.png"><p>linux</p>
+                <img src="img/javascript.png"><p>javascript</p>
+                <img src="img/c++.png"><p>c++</p>
+                <img src="img/cs.png"><p>c-sharp</p>
+                <img src="img/elixir.png"><p>elixir</p>
+            </article>
         </section>
 
         <section class="projecten">
-            <h2 id="proj">Projecten</h2>
+            <div id="proj"></div>
+
+            <h2 id="projecten">Projecten</h2>
 
             <h3>Javascript</h3>
             <p>
@@ -110,8 +85,6 @@
         </section>
 
         <section class="cvContact">
-            <h2 id="cv">cv</h2>
-            <a href="files/cv.pdf" title="">Download mijn cv</a>
             <section class="contact">
                 <h2 id="contact">Contact</h2>
                 <p><img src="img/person.png" class="icon">Jens Massie</p>
