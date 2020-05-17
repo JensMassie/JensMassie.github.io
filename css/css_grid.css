@@ -33,6 +33,11 @@ nav {
     height: 100%;
 }
 
+
+#smallNav{
+    height: 100vh;
+}
+
 nav a {
     display: block;
     color: black;
@@ -121,7 +126,15 @@ h3 {
     padding-bottom: 1rem;
 }
 .content{
+    padding-top: 1rem;
+    padding-left: 0.5rem;
 }
+.introtext{
+    padding-bottom: 1rem;
+}
+
+
+
 .home{
 }
 
@@ -173,4 +186,8 @@ h3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 15%;
+}
+
+.projectPics > *{
+    width: 25rem;
 }
