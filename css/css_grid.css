@@ -2,7 +2,11 @@
 body {
     font-size: 1.2rem;
     background-color: #ffffff;
+}
+
+:not(#icon) {
 	-webkit-animation: rotation 2s infinite linear;
+	
 }
 
 main {
