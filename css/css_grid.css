@@ -2,7 +2,7 @@
 body {
     font-size: 1.2rem;
     background-color: #ffffff;
-
+	-webkit-animation: rotation 2s infinite linear;
 }
 
 main {
@@ -216,4 +216,13 @@ table th {
     text-align: left;
     background-color: #9caeaf;
     color: white;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
