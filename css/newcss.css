@@ -2,7 +2,7 @@
 body {
     font-size: 1.2rem;
     background-color: #ffffff;
-    
+    -webkit-animation: rotation 2s infinite linear;
 }
 
 .aboutMeText{
@@ -145,4 +145,13 @@ h2 {
 
 .contact{
     margin-top: 4rem;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
 }
